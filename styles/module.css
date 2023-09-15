@@ -1,0 +1,141 @@
+.container{
+            clip-path: circle(50% at 50%);   
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background-size: contain;
+            padding-left: :2px;
+
+}
+.d1 {
+            width: 150px;
+            height: 150px;
+            background-image: url(https://i.imgur.com/RVghS5u.png);
+            background-size: contain;
+            position: absolute;
+            /* box-shadow:0 1000px  rgb(255, 5, 5) inset ; */
+            box-shadow:0 1000px  rgb(20, 20, 20) inset ;
+
+        }
+        .a21 {
+            width: 150px;
+            height: 150px;
+            background-size: contain;
+            position: absolute;
+            clip-path: inset(48.5% 0 60% 0);   
+
+            background-image: url(https://i.imgur.com/iA0TFw0.png);
+            box-shadow:0 1000px  rgb(10, 20, 255) inset ;
+            /*box-shadow:0 1000px  rgb(236, 166, 13) inset ;*/
+            /*filter: invert(2);*/
+            mask-image: url(https://i.imgur.com/whOiKfz.png);
+            -webkit-mask-image: url(https://i.imgur.com/whOiKfz.png);
+            mask-size: contain;
+            -webkit-mask-size: contain;
+            animation: lip 16s linear infinite;
+            mask-repeat: repeat;
+            -webkit-mask-repeat: repeat;
+            transition: 4s;
+
+        }
+                @keyframes lip {
+		from { mask-position:  150px; -webkit-mask-position:  150px }
+	    to { mask-position:  0px; webkit-mask-position:  0px;}
+
+
+}
+        .a2 {
+            width: 150px;
+            height: 150px;
+            background-size: contain;
+            position: absolute;
+            clip-path: inset(80% 0 0 0);   
+            background-image: url(https://i.imgur.com/iA0TFw0.png);
+            box-shadow:0 1000px  rgb(10, 20, 255) inset ;
+            /*box-shadow:0 1000px  rgb(236, 166, 13) inset ;*/
+            mask-image: url(https://i.imgur.com/Vemqpu2.png);
+            -webkit-mask-image: url(https://i.imgur.com/Vemqpu2.png);
+            mask-size: contain;
+            -webkit-mask-size: contain;
+            animation: myfirst 8s linear infinite;
+            mask-repeat: repeat-y;
+            -webkit-mask-repeat: repeat-y;
+            transition: 4s;
+        }
+        .d21 {
+            width: 150px;
+            height: 150px;
+            background-size: contain;
+            position: absolute;
+            clip-path: inset(48.5% 0 60% 0);   
+
+            background-image: url(https://i.imgur.com/iA0TFw0.png);
+            box-shadow:0 1000px  rgb(200, 18, 18) inset ;
+            mask-image: url(https://i.imgur.com/whOiKfz.png);
+            -webkit-mask-image: url(https://i.imgur.com/whOiKfz.png);
+            mask-size: contain;
+            -webkit-mask-size: contain;
+            animation: lip 16s linear infinite;
+            mask-repeat: repeat;
+            -webkit-mask-repeat: repeat;
+            transition: 4s;
+
+        }
+                @keyframes lip {
+		from { mask-position:  150px; -webkit-mask-position:  150px }
+	    to { mask-position:  0px; -webkit-mask-position:  0px; }
+
+
+}
+        .d2 {
+            width: 150px;
+            height: 150px;
+            background-size: contain;
+            position: absolute;
+            clip-path: inset(40% 0 0 0);   
+            background-image: url(https://i.imgur.com/iA0TFw0.png);
+            box-shadow:0 1000px  rgb(255, 0, 0) inset ;
+            mask-image: url(https://i.imgur.com/Vemqpu2.png);
+            -webkit-mask-image: url(https://i.imgur.com/Vemqpu2.png);
+            mask-size: contain;
+            -webkit-mask-size: contain;
+            animation: myfirst 8s linear infinite;
+            mask-repeat: repeat-y;
+            -webkit-mask-repeat: repeat-y;
+            transition: 4s;
+        }
+
+        @keyframes myfirst {
+		from { mask-position: left 150px; -webkit-mask-position: left 150px;}
+
+	    to { mask-position: left 0px; -webkit-mask-position: left 0px;}
+
+}
+
+        .d3 {
+            width: 150px;
+            height: 150px;
+            background-size: contain;
+            position: absolute;
+            background-image: url(https://i.imgur.com/6DYwZKj.png);
+
+        }
+        .d4 {
+            width: 150px;
+            height: 150px;
+            background-image: url(https://i.imgur.com/WDpYFQt.png);
+
+            background-size: contain;
+            position: absolute;
+        }
+        .d5 {
+            width: 155px;
+            height: 155px;
+            background-image: url(https://i.imgur.com/sXOIZlM.png);
+
+            background-size: contain;
+            position: absolute;
+            
+        } 
+
+        
