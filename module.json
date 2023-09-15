@@ -6,11 +6,11 @@
   "library": "false",
   "manifestPlusVersion": "1.2.0",
   "compatibility": {
-    "minimum": 11,
+    "minimum": 11
   },
   "authors": [
     {
-      "name": "ChasarooniZ",
+      "name": "ChasarooniZ"
     }
   ],
   "esmodules": [
